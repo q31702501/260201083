@@ -1,7 +1,7 @@
 """"
 number = float(input("Enter a Number:"))
 print("Absolute value: " + str(abs(number)))
-"""
+
 number_1=int(input("number 1:"))
 number_2=int(input("number 2:"))
 number_3=int(input("number 3:"))
@@ -11,3 +11,9 @@ elif number_2<number_3 and number_2<number_1:
   print(number_2)
 else:
   print(number_3) 
+"""
+gpa= float(input("gpa?:"))
+lectrure= int(input("lecture?:"))
+if gpa<2 and lecture<47:
+  print("can not graduate")
+elif gpa
